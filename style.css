@@ -8,9 +8,53 @@ body {
   line-height: 1.4;
 }
 
+.sale {
+  position: absolute;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  top: -10px;
+  left: -30px;
+  color: #f7f7f7;
+  background-color: #ff0028;
+  padding: 15px;
+}
 .container {
   margin: 50px auto;
   width: 50%;
+  position: relative;
+}
+
+.colors {
+  padding: 20px 0;
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color_blue {
+  background-color: #2f6ee2;
+}
+
+.color_red {
+  background-color: #ec2f2f;
+}
+
+.color_yellow {
+  background-color: #f0bf1e;
+}
+
+.color_green {
+  background-color: #90cc20;
+}
+
+.color_brown {
+  background-color: #885214;
 }
 
 .product {
